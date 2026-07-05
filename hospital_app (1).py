@@ -101,7 +101,7 @@ st.markdown("""
                 letter-spacing:-0.02em;">
         Smart Hospital Patient Navigator
     </div>
-    <div style="font-size:18px;color:rgba(255,255,255,0.85);font-weight:400;">
+    <div style="font-size:18px;color:#ffe4a6;font-weight:400;">
         Find the right departemnt fo your symptoms!
     </div>
 </div>
