@@ -203,6 +203,13 @@ with st.form("triage_form"):
     </div>
     """, unsafe_allow_html=True)
 
+ col_temp, col_hr = st.columns(2)
+    with col_temp:
+        temperature_level = st.selectbox("Temperature",options=list(temp_map.keys()))
+    with col_hr:
+        heart_rate_level = st.selectbox("Heart Rate",options=list(hr_map.keys()))
+
+
     # TODO (logic): create 2 columns with 2 selectboxes:
     #   temperature_level 
     #   heart_rate_level
