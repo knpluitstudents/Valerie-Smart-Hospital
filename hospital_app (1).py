@@ -142,7 +142,6 @@ with st.form("triage_form"):
     with c5:
         skin_rash = st.checkbox("Skin Rash")
     
-
     # TODO (logic): create 4 columns (st.columns(4)) with 9 symptom checkboxes.
     # The model needs THESE EXACT variable names (boolean type from st.checkbox):
     #   fever, cough, headache, chest_pain, stomach_pain,
@@ -169,7 +168,7 @@ with st.form("triage_form"):
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
             <span style="background:#ffe4a6;color:rgb(255, 255, 255);border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">2</span>
-            <span style="font-size:16px;font-weight:600;color:#ffffff;">CODENO14</span>
+            <span style="font-size:16px;font-weight:600;color:#ffffff;">How long have you had these symptoms?</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
