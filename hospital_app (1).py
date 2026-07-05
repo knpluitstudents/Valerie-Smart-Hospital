@@ -54,7 +54,7 @@ dur_map       = bundle['dur_map']
 cc_map        = bundle['cc_map']
 
 
-DEPT_INFO = {
+DEPT_INFO = 
     'Respiratory Medicine': {
         'icon':'🫁','color':'#0284c7','bg':'#e0f2fe','border':'#7dd3fc',
         'desc':''Respiratory Medicine': {
