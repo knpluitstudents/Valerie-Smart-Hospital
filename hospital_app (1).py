@@ -346,8 +346,8 @@ if submitted:
     st.markdown("---")
     # TODO (text): replace CODENO28 and CODENO29
     st.markdown("""
-    <div style="font-size:22px;font-weight:700;color:#111827;margin-bottom:4px;">CODENO28</div>
-    <div style="font-size:14px;color:#6b7280;margin-bottom:1.5rem;">CODENO29</div>
+    <div style="font-size:22px;font-weight:700;color:#111827;margin-bottom:4px;">Our Recommendation</div>
+    <div style="font-size:14px;color:#6b7280;margin-bottom:1.5rem;">Based on the information you provided:</div>
     """, unsafe_allow_html=True)
 
     res_col, prob_col = st.columns([3, 2])
@@ -376,7 +376,7 @@ if submitted:
             {steps_html}
             <div style="margin-top:20px;padding:12px 16px;background:rgba(0,0,0,0.05);
                         border-radius:10px;font-size:12px;color:#6b7280;line-height:1.5;">
-                ⚠️ CODENO30
+                ⚠️ This is an AI suggestion, please consult a doctor for further evaluation.
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -386,7 +386,7 @@ if submitted:
         st.markdown(f"""
         <div style="background:white;border:1px solid #e5e7eb;border-radius:16px;padding:24px;">
             <div style="font-size:14px;font-weight:600;color:#111827;margin-bottom:16px;">
-                CODENO31
+                Confidence by Department
             </div>
         """, unsafe_allow_html=True)
 
