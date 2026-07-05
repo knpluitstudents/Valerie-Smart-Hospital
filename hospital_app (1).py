@@ -173,6 +173,10 @@ with st.form("triage_form"):
     </div>
     """, unsafe_allow_html=True)
 
+    col_cc, col_dur = st,columns(2)
+    with col_cc:
+        chief_complaint = st.selectbox("Chief Complaint",options=list(cc_map.keys())
+
     # TODO (logic): create 2 columns with 2 selectboxes:
     #   chief_complaint 
     #   duration      
