@@ -203,7 +203,7 @@ with st.form("triage_form"):
     </div>
     """, unsafe_allow_html=True)
 
-    col_temp, col_hr = st.columns(2)
+     col_temp, col_hr = st.columns(2)
     with col_temp:
         temperature_level = st.selectbox("Temperature",options=list(temp_map.keys()))
     with col_hr:
@@ -222,12 +222,12 @@ with st.form("triage_form"):
     # TODO (text/color): replace CODENO20 and COLOR5.
     st.markdown("""
     <!-- COLOR5 -->
-    <div style="background:#f60909;border:1px solid #cbdc0d;border-radius:14px;
+    <div style="background:#80b3ff;border:1px solid #ffffff;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
-            <span style="background:#25f20a;color:white;border-radius:8px;
+            <span style="background:#ffe4a6;color:rgb(255, 255, 255);border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">4</span>
-            <span style="font-size:16px;font-weight:600;color:#105efa;">CODENO20</span>
+            <span style="font-size:16px;font-weight:600;color:#ffffff;">Do you have any of the following?</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
