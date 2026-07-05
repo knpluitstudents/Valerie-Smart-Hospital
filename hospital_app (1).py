@@ -203,7 +203,7 @@ with st.form("triage_form"):
     </div>
     """, unsafe_allow_html=True)
 
-     col_temp, col_hr = st.columns(2)
+    col_temp, col_hr = st.columns(2)
     with col_temp:
         temperature_level = st.selectbox("Temperature",options=list(temp_map.keys()))
     with col_hr:
