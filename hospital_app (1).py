@@ -418,8 +418,8 @@ if submitted:
         # TODO (text/color): replace CODENO32 and COLOR7
         st.markdown(bars_html + """
             <!-- COLOR7 -->
-            <div style="margin-top:20px;background:#e90ee9;border:1px solid #ff0505;
-                        border-radius:10px;padding:12px 14px;font-size:12px;color:#1af250;">
+            <div style="margin-top:20px;background:#80b3ff;border:1px solid #ffffff;
+                        border-radius:10px;padding:12px 14px;font-size:12px;color:#ffffff;">
                 <strong>Model:</strong>CODENO32<br>
                 <strong>Powered by:</strong> Future Classroom ML
             </div>
