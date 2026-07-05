@@ -241,7 +241,6 @@ with st.form("triage_form"):
     with ch3:  
         asthma = st.checkbox("Asthma")
 
-
     # TODO (logic): create 3 columns with 3 medical history checkboxes:
     #   hypertension, heart_disease, asthma
     # Variable names must be EXACTLY as listed above.
@@ -258,10 +257,17 @@ with st.form("triage_form"):
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
             <span style="background:#ffe4a6;color:rgb(255, 255, 255);border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">5</span>
-            <span style="font-size:16px;font-weight:600;color:#ffffff;">CODENO24</span>
+            <span style="font-size:16px;font-weight:600;color:#ffffff;">Patient Information</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
+
+
+    col_age, col_gen = st.columns(2)
+    with col_age:
+        age = st.number_input("Age", min_value=1, max_value=120, value=35)
+    with col_gen:
+        gender = st.selectbox("Gender",options=['Female','Male'])
 
     # TODO (logic): create 2 columns with:
     #   age    -> min_value=1, max_value=120, default value=35
